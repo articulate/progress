@@ -1,5 +1,5 @@
 {
-  "name": "terminal-progress",
+  "name": "@articulate/progress",
   "version": "0.0.0",
   "description": "Cheap, functional, terminal progress bar",
   "main": "lib/progress.js",
