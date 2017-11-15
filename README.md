@@ -34,3 +34,5 @@ const progress = require('terminal-progress')()
 progress(0.55)
 //> progress: ⣠ [==============          ] 55%
 ```
+
+See [`demo.js`](https://github.com/articulate/terminal-progress/blob/master/demo.js) for a slightly more complex example.
