@@ -1,0 +1,37 @@
+{
+  "name": "terminal-progress",
+  "version": "0.0.0",
+  "description": "Cheap, functional, terminal progress bar",
+  "main": "lib/progress.js",
+  "author": "flintinatux",
+  "license": "MIT",
+  "nyc": {
+    "check-coverage": true,
+    "include": [
+      "lib/**/*.js"
+    ],
+    "branches": 100,
+    "functions": 100,
+    "lines": 100,
+    "statements": 100
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "demo": "node demo.js",
+    "lint": "eslint .",
+    "test": "mocha --reporter dot",
+    "test:ci": "yarn run lint && yarn run test:coverage && yarn run coverage",
+    "test:coverage": "nyc yarn run test"
+  },
+  "dependencies": {
+    "tinyfunk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@articulate/spy": "^0.0.1",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.10.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  }
+}
