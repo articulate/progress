@@ -1,6 +1,10 @@
 # terminal-progress
+[![terminal-progress](https://img.shields.io/npm/v/terminal-progress.svg)](https://www.npmjs.com/package/terminal-progress)
+[![Build Status](https://travis-ci.org/articulate/terminal-progress.svg?branch=master)](https://travis-ci.org/articulate/terminal-progress)
+[![Coverage Status](https://coveralls.io/repos/github/articulate/terminal-progress/badge.svg?branch=master)](https://coveralls.io/github/articulate/terminal-progress?branch=master)
+[![NSP Status](https://nodesecurity.io/orgs/articulate/projects/651997de-596c-4e76-8de1-aa4c91568f3a/badge)](https://nodesecurity.io/orgs/articulate/projects/651997de-596c-4e76-8de1-aa4c91568f3a)
 
-![terminal-progress2](https://user-images.githubusercontent.com/888052/32856962-53142736-ca14-11e7-8296-90160a1fa221.gif)
+![terminal-progress](https://user-images.githubusercontent.com/888052/32856962-53142736-ca14-11e7-8296-90160a1fa221.gif)
 
 Cheap, functional, terminal progress bar.
 
